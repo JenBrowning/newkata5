@@ -99,9 +99,9 @@ function evaluateExpression(expression, values){
 }
 
 testFunction(reverseString, 'abc', 'cba');
-testFunction(reverseString, 'Test');
+testFunction(reverseString, 'Jen is testing', 'gnitset si neJ');
 testFunction(reverseASentence, 'test one two', 'two one test');
-testFunction(reverseASentence, 'i hate testing', 'testing hate i');
+testFunction(reverseASentence, 'bob likes dogs', 'dogs likes bob');
 testFunction(findMinimunValueInArray, [1, 2, 3, 4, ], 1);
 testFunction(findMinimunValueInArray, [3.44, 2.4, -1.2, 4, ], -1.2);
 testFunction(findMaximumValueInArray, [1, 2, 3, 4], 4);
